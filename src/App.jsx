@@ -1,28 +1,23 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import { Routes, Route } from "react-router-dom";
 
-import About from "./components/About";
-import Services from "./components/Services";
-import Capabilities from "./components/Capabilities";
-import Projects from "./components/Projects";
-import Contacts from "./components/Contacts";
-import Footer from "./components/Footer";
-
+import Home from "./pages/Home";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfUse from "./pages/TermsOfUse";
+import SiteMap from "./pages/SiteMap";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
-    <>
-    <Navbar/>
-    <Hero/>
-  
-    <About/>
-    <Services/>
-    <Capabilities/>
-    <Projects />
-    <Contacts />
-    <Footer />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/terms-of-use" element={<TermsOfUse />} />
+      <Route path="/site-map" element={<SiteMap />} />
+        {/* Always keep this last */}
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   );
 }
+
 
 export default App;

@@ -1,0 +1,84 @@
+.privacy-page {
+    background: #f8fafc;
+    padding: 80px 20px;
+    min-height: 100vh;
+  }
+  
+  .privacy-container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+  }
+  
+  .privacy-container h1 {
+    text-align: center;
+    color: #0f172a;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+  }
+  
+  .effective-date {
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .privacy-container h2 {
+    color: #ff6b00;
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+  
+  .privacy-container p {
+    color: #444;
+    line-height: 1.8;
+  }
+  
+  .privacy-container ul {
+    margin-left: 20px;
+    color: #444;
+    line-height: 1.8;
+  }
+  
+  .privacy-container li {
+    margin-bottom: 8px;
+  }
+  
+  .privacy-container hr {
+    margin: 50px 0 20px;
+  }
+  
+  .pdpa {
+    text-align: center;
+    font-size: 0.95rem;
+    color: #777;
+  }
+
+  .back-home-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 28px;
+    background: #ff6b00;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .back-home-btn:hover {
+    background: #e65c00;
+  }
+  
+  @media (max-width: 768px) {
+    .privacy-container {
+      padding: 30px 25px;
+    }
+  
+    .privacy-container h1 {
+      font-size: 2rem;
+    }
+  }
