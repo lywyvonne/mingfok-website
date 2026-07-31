@@ -76,7 +76,7 @@ function Contact() {
 
 <div className="info-card">
   <h4>✉️ Email</h4>
-  <p>mingfokrolling@gmail.com</p>
+  <p> ✉ Email: <a href="mailto:ingfokrolling@gmail.com">mingfokrolling@gmail.com</a></p>
 </div>
 
 <div className="info-card">
