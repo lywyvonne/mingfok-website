@@ -50,14 +50,17 @@ export default function Projects() {
         </h2>
 
         <p className="section-description">
-          Ming Fok has contributed steel rolling and fabrication solutions to landmark commercial, industrial and infrastructure projects
-          throughout Malaysia.
+        Ming Fok Steel Rolling provides steel rolling and fabrication
+  solutions for commercial, industrial and infrastructure projects across Malaysia.
         </p>
 
         <div className="project-grid">
           {projects.map((project, index) => (
             <div className="project-card" key={index}>
-              <img src={project.image} alt={project.title} />
+              <img
+                src={project.image}
+                alt={`${project.title} - ${project.description} | Ming Fok Steel Rolling`}
+/>
 
               <div className="project-content">
                 <span className="project-category">
