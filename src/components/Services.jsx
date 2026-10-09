@@ -55,8 +55,8 @@ export default function Services() {
         <h2>Complete Steel Rolling & Fabrication Solutions</h2>
 
         <p className="section-description">
-          Delivering precision steel rolling and fabrication services
-          for commercial, industrial and infrastructure projects.
+        Ming Fok Steel Rolling provides steel rolling and fabrication services for commercial, industrial and infrastructure
+        projects across Malaysia.
         </p>
 
         <div className="services-grid">
