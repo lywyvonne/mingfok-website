@@ -65,21 +65,22 @@ export default function Services() {
 
             <div className="service-card" key={index}>
 
-              <img
-                src={service.image}
-                alt={service.title}
-                className="service-image"
-              />
+          <img
+            src={service.image}
+            alt={`${service.title} services by Ming Fok Steel Rolling`}
+            className="service-image"
+          />
 
               <div className="service-content">
 
                 <div className="icon-circle">
 
-                  <img
-                    src={service.icon}
-                    alt={service.title}
-                    className="service-icon"
-                  />
+                <img
+                  src={service.icon}
+                  alt=""
+                  aria-hidden="true"
+                  className="service-icon"
+                />
 
                 </div>
 
