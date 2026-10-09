@@ -14,15 +14,15 @@ function Hero() {
           </span>
 
           <h1>
-            Precision Steel Rolling &
-            <span> Fabrication Solutions</span>
+            Steel Rolling &
+          <span> Fabrication Services in Malaysia</span>
           </h1>
 
           <p>
-            Ming Fok Steel Rolling specializes in beam rolling, section
-            rolling, plate rolling, cone rolling and custom steel fabrication
-            for commercial, industrial and infrastructure projects throughout
-            Malaysia.
+          Ming Fok Steel Rolling provides precision beam rolling,
+          section rolling, plate rolling, cone rolling and custom
+          steel fabrication for commercial, industrial and
+          infrastructure projects across Malaysia.
           </p>
 
           <div className="hero-features">
